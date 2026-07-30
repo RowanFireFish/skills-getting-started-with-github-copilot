@@ -40,3 +40,7 @@ Thumbs.db
 .actrc*
 
 __pycache__/
+
+# Ignore test artifacts, but keep the tests directory tracked
+tests/__pycache__/
+tests/*.pyc
